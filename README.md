@@ -1,5 +1,3 @@
 # FFMPEG-RTP
 基于FFMPEG的RTP收流播放器
-
-2023.4.21
-可以播放，花屏，可能是udp收流不及时丢包
+简单的demo。Socket线程使用UDP方式收RTP包，ffmpeg通过回调方式获取数据并解码交给SDL渲染。
